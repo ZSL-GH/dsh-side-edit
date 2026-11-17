@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Workspace file editor",
+    "description": "Open the \"File editor\" tab in the right sidebar (the guide card \"Edit and save files\", or Ctrl+Alt+E) to browse the current Session workspace and edit and save text files in place. Code files are syntax-highlighted by extension with the theme's code palette. After two typed characters, completions come from identifiers in the file and the language's common keywords; accept with Tab or Enter, choose with ↑/↓, or ask explicitly with Ctrl+Space. After a short pause in a code file, the default model also proposes a grey inline completion: Tab accepts, Esc dismisses, and Ctrl+Z reverts the insertion. Automatic inline completion skips likely-secret filenames such as .env and keys, but sends the code around the cursor to the configured model provider. The list page searches workspace file names and contents, and Ctrl+F finds text in the current file. Unsaved drafts stay in the browser tab and are restored when the same file is reopened. Saving follows the Session sandbox: a read-only Session cannot save, and writes stay inside the workspace. Files are read up to 2 MB and must be UTF-8 text; creating, deleting, and renaming files are not supported."
+  }
+}
